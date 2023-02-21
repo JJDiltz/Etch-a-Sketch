@@ -1,0 +1,66 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.board {
+    height: 960px;
+    width: 960px;
+    display: grid;
+    border: 5rem solid red;
+    border-radius: 5%;
+}
+.title {
+    align-self: center;
+}
+.flex-container {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gridLayout {
+    display: flex;
+    width: 960px;
+    justify-content: space-between;  
+}
+#inputField {
+    width: 5rem;
+    margin-left: 25px;
+    outline: 1px solid black;
+}
+button {
+    margin-top: 10px;
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+    outline: 1px solid white;
+    height: 25px;
+}
+.dialContainer { 
+    width: 800px;
+}
+.dials {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+    
+}
+div.dial1 {
+    background-color: lightgrey;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    outline: 2px solid black;
+}
+div.dial2 {
+    background-color: lightgrey;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    outline: 2px solid black;
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="flex-container">
+    <div class="title"><h1>Sketch.Me</h1></div>
+    <div class="content">
+        <div class="board"></div>
+        <div class="dialContainer">
+            <div class="dials">
+                <div class="dial1"></div>
+                <div class="dial2"></div>
+            </div>
+        </div>
+        <div class="gridLayout">
+            <button id="reset">Reset</button>
+            <button id="small" value="8">8x8</button>
+            <button id="medium" value="16">16x16</button>
+            <button id="large" value="32">32x32</button>
+            <div id="inputDiv">
+                <input 
+                id="inputField"
+                type="text" 
+                placeholder="Custom size"
+                value=""
+                />
+                <button id="input">Set size of board</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</body>
+</html>
